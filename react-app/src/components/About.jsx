@@ -7,6 +7,17 @@ function About(){
     <>
     <div className="about-page">
         <div className="about-content">
+              <style>
+        /* CSS for fade-in effect */
+        .fade-in {
+            opacity: 0; /* Initial state is invisible */
+            transition: opacity 2s ease-in; /* Smooth transition over 2 seconds */
+        }
+        /* Add a class to make it visible after fading in */
+        .fade-in.visible {
+            opacity: 1; /* Fully visible */
+        }
+    </style>
             <h1>Greetings visitor!</h1> 
             <p>
                 I am Tawhid, and this is my personal portfolio website.
